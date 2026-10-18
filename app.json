@@ -1,1 +1,24 @@
-
+{
+  "expo": {
+    "name": "Bíblia Expandida",
+    "slug": "biblia-expandida",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.bibliaexpandida.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita o acesso à câmera para fotografar páginas da Bíblia."
+        }
+      ]
+    ]
+  }
+}
